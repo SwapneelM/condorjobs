@@ -1,0 +1,10 @@
+executable            = /bin/bash
+arguments             = /afs/cern.ch/work/s/smehta/public/tsc-cern/condorjobs/train_deephgcal.sh 
+output                = /afs/cern.ch/work/s/smehta/public/tsc-cern/condorjobs/test_train.out
+error                 = /afs/cern.ch/work/s/smehta/public/tsc-cern/condorjobs/test_train.err
+log                   = /afs/cern.ch/work/s/smehta/public/tsc-cern/condorjobs/test_train.log
+getenv = True
++MaxRuntime = 431999
+request_GPUs = 1
+request_cpus = 4
+queue 1
